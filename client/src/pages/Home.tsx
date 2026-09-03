@@ -152,6 +152,23 @@ const destinations: Destination[] = [
       { name: "Bahia Palace", type: "Architecture", description: "A maze of mosaics, courtyards, and the best kind of visual overload.", image: "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&fit=crop&w=900&q=80" },
     ],
   },
+  {
+    name: "Jaipur",
+    country: "India",
+    region: "Asia",
+    tagline: "Rose-pink streets, royal courtyards, bold flavours.",
+    description:
+      "Jaipur moves between grand palaces, artisan workshops, and warm evening markets. Follow the colour through the old city, then slow down for chai and a sunset over the Aravalli hills.",
+    bestFor: "Heritage · craft · food",
+    bestTime: "October — March",
+    image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=1800&q=85",
+    coordinates: { lat: 26.9124, lon: 75.7873 },
+    places: [
+      { name: "Amber Fort", type: "Heritage", description: "Climb through honey-coloured courtyards and look out across the hills beyond the city.", image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=900&q=80" },
+      { name: "Hawa Mahal", type: "Landmark", description: "See Jaipur's famous pink facade glow at first light, before the old city wakes up.", image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=900&q=80" },
+      { name: "City Palace", type: "Architecture", description: "A living royal complex of painted doors, textiles, and quiet museum rooms.", image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=900&q=80" },
+    ],
+  },
 ];
 
 const regions = ["All regions", "Europe", "Asia", "Africa", "Americas"];
